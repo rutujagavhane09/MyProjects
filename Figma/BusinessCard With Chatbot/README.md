@@ -6,7 +6,7 @@ This is the **BusinessCard with an in-built Chatbot Design** created in **Figma*
 
 
 **Steps to follow:**
-1. Download the figma file named **BusinessCard_With ChatBot.fig** or else you can directly view the design bu clicking on the below link:
+1. Download the figma file named **BusinessCard_With ChatBot.fig** or else you can directly view the design by clicking on the below link:
 [https://www.figma.com/proto/OCMDVKPPBRjYVhwxwrcZ4l/Webmobi_BusinessCard_Assignment?node-id=2-4&t=abZ99MKnVDPwO5ic-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A4](url)
 
 **Note: Choose iPhone13 mini in the device when you are viewing the prototype design.** (You can refer to the below screenshot for details)
