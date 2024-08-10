@@ -23,14 +23,15 @@ This is the **BusinessCard with an in-built Chatbot Design** created in **Figma*
 
 
 **The Actual Working of the Design is as follows:**
-1. Main Screen : This has three buttons namely :
+1. Main Screen: This has three buttons namely :
    a) Talk to me b) Call me c)Save Card
 ![image](https://github.com/user-attachments/assets/d398c7ab-6829-4e90-8253-ad5251491130)
 
-a)Talk to me: When a user clicks or taps on talk to me button then Alice the chatbot will open up.
+a)Talk to me: When a user clicks or taps on the talk to me button then Alice the chatbot will open up.
+
+![image](https://github.com/user-attachments/assets/8813f936-ecd5-4966-aa62-a84a4d67c196)
 
 
-![image](https://github.com/user-attachments/assets/ea638acd-c5d8-44d6-bb37-461e6e74d313)
 
 b)Call me: When a user taps on this button it will open a popup mentioning that it is dialing Sachin Anand Sir’s phone number and here if a user taps on the cancel button then it will navigate to the main screen.
 
