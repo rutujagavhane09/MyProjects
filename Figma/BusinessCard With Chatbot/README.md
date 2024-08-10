@@ -19,4 +19,8 @@ This is the **BusinessCard with an in-built Chatbot Design** created in **Figma*
 
 <img width="760" alt="image" src="https://github.com/user-attachments/assets/02404512-cd7c-4547-a0bd-803de103434a">
 
-**The Actual Working of the Design:**
+
+
+
+**The Actual Working of the Design is as follows:**
+
