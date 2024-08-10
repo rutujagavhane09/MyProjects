@@ -7,7 +7,7 @@ This is the **Infographics  Design** created in **Figma**. The main functionalit
 **Steps to follow**
 1. Download the figma file named **Infographics.fig** or else you can directly view the design by clicking on the below link:
 
-[https://www.figma.com/proto/uaMFIKUZMposhMmsLjuLHG/Infographics?page-id=0%3A1&node-id=1-710&viewport=342%2C419%2C0.03&t=DfY8sxo5APKcrV01-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A710](url)
+https://www.figma.com/proto/uaMFIKUZMposhMmsLjuLHG/Infographics?page-id=0%3A1&node-id=1-710&viewport=342%2C419%2C0.03&t=DfY8sxo5APKcrV01-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A710
 
 2. For user who has downloaded the file will have to first open the Figma Desktop Application or Web Application and will have to click on the import button and choose the file from the Downloads folder after that the design file will be opened in figma.
 
