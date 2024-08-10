@@ -29,6 +29,9 @@ This is the **BusinessCard with an in-built Chatbot Design** created in **Figma*
 
 a)Talk to me: When a user clicks or taps on the talk to me button then Alice the chatbot will open up.
 
+<img width="152" alt="image" src="https://github.com/user-attachments/assets/fd84b829-dd89-41e6-988e-2c728a2aa4a6">
+
+
 ![image](https://github.com/user-attachments/assets/8813f936-ecd5-4966-aa62-a84a4d67c196)
 
 
