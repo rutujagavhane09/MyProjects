@@ -1,4 +1,5 @@
-**MyCalculator Pyhton Project**
+**MyCalculator Python Project**
+
 MyCalculator is a project developed using the python Tkinter Library. It is similar to a calculator app that we use on our phones and other devices.
 
 **Steps to follow:**
