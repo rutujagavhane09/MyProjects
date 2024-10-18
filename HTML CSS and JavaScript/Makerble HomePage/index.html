@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Makerble</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        new WOW().init();
+    </script>
+    
+		<script>
+
+			$(function() {
+  				$('a[href*=#]:not([href=#])').click(function() {
+    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      					var target = $(this.hash);
+      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      					if (target.length) {
+        					$('html,body').animate({
+          						scrollTop: target.offset().top
+        					}, 1000);
+        				return false;
+      					}
+    				}
+  				});
+			});
+		
+		</script>
+
+        <style>
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                }
+
+        </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar-default" style="border-radius:0;"  id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="font-family: 'Playball', cursive; font-size: 28px; color: #fff;">Makerble</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOMEPAGE</a>
+                        </li>
+                        <li><a href="#content2">ABOUT US</a>
+                        </li>
+                        <li><a href="#content6">PORTFOLIO</a>
+                        </li>
+                        <li><a href="#content8">PRICING</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <style>
+            .navbar-default {
+                background: transparent;
+            }
+            .navbar-default .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .navbar-sticky {
+                background: rgb(72, 79, 87);
+            }
+            .navbar-sticky .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+
+        </style>
+
+    </header>
+
+    <div class="banner">
+        <div class="opacity_overlay">
+            <div class="info">
+                <h2>Accelerate everyone towards better outcomes</h2>
+                <br>
+                <h3>Work smarter, not harder</h3>
+                <br>
+                <a href="#content"><button type="button" id="proceed">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="content">
+        <div class="container">
+            <h2>It would happen to meet Aperia</h2>
+            <h3>The company itself is very important, and that is what all of them think is a rubergren in the sea</h3>
+
+            <div class="boxes">
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-check"></i>Covers Everything</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>It is very important for the customer to pay attention to the adipiscing process. And so, the choice of the body, which is not averse to others, but never to be excluded from things, is held to be expedient, to be assumed by pleasures.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-gift"></i>Everything you need</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>It is very important for the customer to pay attention to the adipiscing process. And so, the choice of the body, which is not averse to others, but never to be excluded from things, is held to be expedient, to be assumed by pleasures.</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="wow flipInX"><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>It is very important for the customer to pay attention to the adipiscing process. And so, the choice of the body, which is not averse to others, but never to be excluded from things, is held to be expedient, to be assumed by pleasures./p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="content2">
+    	<div class="opacity_overlay">
+    		<div class="container-fluid" style="padding: 0;">
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-edit glyphicon-lg"></span>
+    					<h6>Easy To Edit</h6>
+    					<hr>
+    					<p>Let him be very happy with the pain, and he was greeted by the forest, and we read that he had the right to live brutally.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-compressed glyphicon-lg"></span>
+    					<h6>Trendy Design</h6>
+    					<hr>
+    					<p>Let him be very happy with the pain, and he was greeted by the forest, and we read that he had the right to live brutally.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-camera glyphicon-lg"></span>
+    					<h6>Photography</h6>
+    					<hr>
+    					<p>Let him be very happy with the pain, and he was greeted by the forest, and we read that he had the right to live brutally.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-modal-window glyphicon-lg"></span>
+    					<h6>Beautifully Coded</h6>
+    					<hr>
+    					<p>Let him be very happy with the pain, and he was greeted by the forest, and we read that he had the right to live brutally.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section id="content3">
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+           				<h2>I will leave the Legends to meet</h2>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-6">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-home glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Home</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-envelope glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Mail</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-user glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Users</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-info-sign glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Information</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-signal glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                    Charts</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-globe glyphicon-lg"></span>
+                            </div>
+                            <h4>
+                   Global</h4>
+                            <p>
+                                The customer is very important, the customer will be followed by the customer. It was a complete set from before.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="content4">
+    	<div class="container">
+    		<h3>The customer is very happy</h3>
+    		<hr>
+    		<div class="product-info">
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>New Products</h5>
+    					<h4>Increase Profits</h4>
+    					<hr>
+    					<p>There is no one who is persecuted by the voices of the uncorrupted, but in the euismod the democrite appears. They will look upon her as a stranger, for she is still unarmed.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>New Products</h5>
+    					<h4>Increase Reputation</h4>
+    					<hr>
+    					<p>There is no one who is persecuted by the voices of the uncorrupted, but in the euismod the democrite appears. They will look upon her as a stranger, for she is still unarmed.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>New Products</h5>
+    					<h4>Increase Business</h4>
+    					<hr>
+    					<p>There is no one who is persecuted by the voices of the uncorrupted, but in the euismod the democrite appears. They will look upon her as a stranger, for she is still unarmed.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="content5">
+    	<div class="opacity_overlay">
+    		<div class="container">
+    			<h3>Our Skills</h3>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p25">
+						<span>25%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>JQuery</h4>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p50 green">
+						<span>50%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>CSS</h4>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="c100 p75 orange">
+						<span>75%</span>
+						<div class="slice">
+							<div class="bar"></div>
+							<div class="fill"></div>
+						</div>
+					</div>
+					<h4>HTML</h4>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="content6">
+    	<div class="container">
+            <h2>It would happen to meet Aperia</h2>
+            <h3>The company itself is very important, and that is what all of them think is a rubergren in the sea</h3>
+            
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery1.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery2.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery3.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery4.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery5.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery6.jpg" class="img-responsive">
+			</div>
+    	</div>
+    </section>
+    
+    <section id="content7">
+    	<div class="conatiner-fluid" style="padding: 0;">
+    		<h2>Are you ready for the ultimate upgrade?</h2>
+    	</div>
+    </section>
+    
+    <section id="content8">
+        <div id="pricing-table">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Free Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 0 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>1,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>limited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>limited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Business Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 20 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Extended Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 80 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,0000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+	<section id="content9">
+    	<div id="carousel">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-8 col-md-offset-2">
+                    	<div class="quote"><i class="fa fa-quote-left fa-4x"></i>
+                    	</div>
+                    	<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        	<!-- Carousel indicators -->
+                        	<ol class="carousel-indicators">
+                            	<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        	</ol>
+                        	<!-- Carousel items -->
+                        	<div class="carousel-inner">
+                            	<div class="active item">
+                                	<blockquote>
+                                    	<p>It is very important for the customer to pay attention to the adipiscing process. Indeed, there is no truth in the whole time of those who praise him, the choice and laborious pains which he and those troubles of hatred or of his mind. It hinders the times unless we accuse.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>It is very important for the customer to pay attention to the adipiscing process. Indeed, there is no truth in the whole time of those who praise him, the choice and laborious pains which he and those troubles of hatred or of his mind. It hinders the times unless we accuse.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>It is very important for the customer to pay attention to the adipiscing process. Indeed, there is no truth in the whole time of those who praise him, the choice and laborious pains which he and those troubles of hatred or of his mind. It hinders the times unless we accuse.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>It is very important to have a patient who is an easy patient. When you want to fear from, another born to fear. But others of the common law of the earth, to learn the named practice in, you want the words of the pains to be eased. Let them always accept the laureate.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							c/o Friends of the Earth, The Printworks, 139 Clapham Road, London SW9 0HP, United Kingdom
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							+44 (0) 20 8123 6253
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							hello@makerble.com
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Newsletter</h3>
+				<hr>
+				<p>Subscribe to our newsletter to get the latest updates</p>
+				<input type="email" placeholder="Email address..." required>
+			</div>
+		</div>
+	</footer>
+	
+	<div id="copyright-part">
+		<p>&copy 2024 <span>makerble</span> All Rights Reserved</p>
+	</div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.add("navbar-sticky")
+            navbar.classList.remove("navbar-default")
+          } else {
+            navbar.classList.remove("sticky")
+          }
+        }
+        </script>
+</body>
+
+</html>
